@@ -1,0 +1,138 @@
+
+/* Product Details */
+.text-product-comapny{
+    color: #555;
+}
+.text-product-desc{
+    color: #999;
+}
+.list-menu{
+    float: left;
+}
+.list-group{
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.img-container {
+    position: relative;
+  }
+    /* Style the button and place it in the middle of the container/image */
+    .img-container .img-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      padding:5px 8px;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: white;
+      font-size: 14px;
+      cursor: pointer;
+      display:none;
+    }
+    .img-container .select-img {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    .img-container:hover .img-btn{
+      display:block;
+    }
+
+    /* The container */
+.select-img {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.select-img input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  text-align:center;
+  font-size: medium;
+  color:white;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.select-img:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when hover */
+.select-img input:hover ~ .checkmark:after {
+  display: block;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.select-img input:checked ~ .checkmark:after {
+  display:none;
+}
+
+/* Style the indicator (dot/circle) */
+.select-img .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background:#2196F3;
+}
+
+/* css for add category page */
+    .list-group{
+        max-height: 300px;
+        margin-bottom: 10px;
+        overflow:scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+    .hidden {
+        visibility: hidden;
+    }
+    .show{
+        display: block !important;
+    }
+    .hide{
+        display: none !important;
+    }
+
+/* for tags background */
+.label-info {
+    background-color: #2196F3 !important;
+}

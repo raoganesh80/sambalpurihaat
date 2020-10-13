@@ -1,0 +1,3 @@
+[03-Sep-2020 00:52:11 CST6CDT] PHP Fatal error:  Cannot redeclare CustomerDB::getOrders() in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 210
+[06-Sep-2020 09:56:53 CST6CDT] PHP Parse error:  syntax error, unexpected '$target_dir' (T_VARIABLE) in /home/customer/www/sambalpurihaat.com/public_html/public/includes/VendorDB.php on line 619
+[06-Sep-2020 09:57:14 CST6CDT] PHP Parse error:  syntax error, unexpected '$target_dir' (T_VARIABLE) in /home/customer/www/sambalpurihaat.com/public_html/public/includes/VendorDB.php on line 619

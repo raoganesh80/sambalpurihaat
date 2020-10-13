@@ -1,0 +1,32 @@
+[13-Sep-2020 13:11:27 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/sambalpurihaat.com/public_html/public/includes/DbConnect.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 16
+[13-Sep-2020 13:11:34 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/sambalpurihaat.com/public_html/public/includes/DbConnect.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 16
+[13-Sep-2020 13:11:36 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/sambalpurihaat.com/public_html/public/includes/DbConnect.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 16
+[13-Sep-2020 13:11:38 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/sambalpurihaat.com/public_html/public/includes/DbConnect.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 16
+[13-Sep-2020 13:11:46 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/sambalpurihaat.com/public_html/public/includes/DbConnect.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 16
+[13-Sep-2020 13:11:54 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/sambalpurihaat.com/public_html/public/includes/DbConnect.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 16
+[13-Sep-2020 13:12:24 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/sambalpurihaat.com/public_html/public/includes/DbConnect.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 16
+[19-Sep-2020 20:58:49 Asia/Kolkata] PHP Fatal error:  Cannot declare class CustomerDB, because the name is already in use in /home/customer/www/sambalpurihaat.com/public_html/public/includes/CustomerDB.php on line 8
+[22-Sep-2020 00:33:45 CST6CDT] PHP Parse error:  syntax error, unexpected 'LOGIN_STATUS' (T_STRING), expecting ',' or ';' in /home/customer/www/sambalpurihaat.com/public_html/admin/allproducts.php on line 199
+[22-Sep-2020 00:33:47 CST6CDT] PHP Parse error:  syntax error, unexpected 'LOGIN_STATUS' (T_STRING), expecting ',' or ';' in /home/customer/www/sambalpurihaat.com/public_html/admin/allproducts.php on line 199
+[22-Sep-2020 00:33:48 CST6CDT] PHP Parse error:  syntax error, unexpected 'LOGIN_STATUS' (T_STRING), expecting ',' or ';' in /home/customer/www/sambalpurihaat.com/public_html/admin/allproducts.php on line 199
+[22-Sep-2020 17:57:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:104
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/allproducts.php(204): ProductDB->getAllProducts()
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 104
+[22-Sep-2020 17:58:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:104
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/allproducts.php(204): ProductDB->getAllProducts()
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 104
+[22-Sep-2020 17:58:23 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:104
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/allproducts.php(204): ProductDB->getAllProducts()
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 104
+[08-Oct-2020 18:36:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/sambalpurihaat.com/public_html/public/includes/VendorDB.php:754
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/include/header.php(6): VendorDB->getInboxMessages()
+#1 /home/customer/www/sambalpurihaat.com/public_html/admin/allproducts.php(20): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/VendorDB.php on line 754

@@ -1,0 +1,25 @@
+[17-Sep-2020 03:39:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:228
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/modals/orderDetails.php(6): ProductDB->getOrderedProductInfo('PReda15d80', Array)
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 228
+[17-Sep-2020 03:39:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:228
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/modals/orderDetails.php(6): ProductDB->getOrderedProductInfo('PReda15d80', Array)
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 228
+[17-Sep-2020 03:39:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:228
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/modals/orderDetails.php(6): ProductDB->getOrderedProductInfo('PReda15d80', Array)
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 228
+[17-Sep-2020 03:39:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:228
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/modals/orderDetails.php(6): ProductDB->getOrderedProductInfo('PReda15d80', Array)
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 228
+[17-Sep-2020 03:40:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php:228
+Stack trace:
+#0 /home/customer/www/sambalpurihaat.com/public_html/admin/modals/orderDetails.php(6): ProductDB->getOrderedProductInfo('PReda15d80', Array)
+#1 {main}
+  thrown in /home/customer/www/sambalpurihaat.com/public_html/public/includes/ProductDB.php on line 228
