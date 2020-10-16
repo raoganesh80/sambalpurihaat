@@ -621,7 +621,37 @@
             return $status;
         }
 
-        
+        public function saveProductListOfList($list_id,$list_name,$list_items){
+            $status=false;
+            $stmt = $this->con->prepare("UPDATE product_list_list SET list_name = ? ,list_items = ? WHERE id = ?;");
+            $stmt->bind_param("ssi", $list_name, $list_items, $list_id);
+            if($stmt->execute()){
+                $status=true;   
+            }
+            $stmt->close();
+            return $status;
+        }
+
+        public function getProductListOfList(){
+            $stmt = $this->con->prepare("select id,list_name,list_items from product_list_list order by id asc;");
+            $stmt->execute();
+            if($stmt->bind_result($list_id, $list_name, $list_items)){
+                $productListOfList = array();
+                while($stmt->fetch()){
+                    $productList = array();
+                    $productList['list_id']=$list_id;
+                    $productList['list_name']=ucwords($list_name);
+                    $productList['list_items']=$list_items;
+                    array_push($productListOfList,$productList);
+                }
+            }
+            $stmt->close();
+            if(!empty($productListOfList)) {
+                return $productListOfList; 
+            }
+            else
+                return null;
+        }
 
     }
 ?>

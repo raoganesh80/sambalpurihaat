@@ -831,6 +831,35 @@ $app->get('/getallproducts', function(Request $request, Response $response){
 
 /* 
 	!!!TODO
+*	endpoint : /getproductlistoflist
+*	method : GET
+*/
+$app->get('/getproductlistoflist', function(Request $request, Response $response){
+	$db = new ProductDB; 
+	$productsListOfList = $db->getProductListOfList();
+	if(empty($productsListOfList))
+	{
+		$response_data = array();
+		$response_data['error'] = true; 
+		$response_data['message'] = "Products list not found"; 
+		$response->write(json_encode($response_data));
+		return $response
+		->withHeader('Content-type', 'application/json')
+		->withStatus(200); 
+	}
+
+	$response_data = array();
+	$response_data['error'] = false; 
+	$response_data['products'] = $productsListOfList; 
+	$response->write(json_encode($response_data));
+	return $response
+	->withHeader('Content-type', 'application/json')
+	->withStatus(200); 
+
+});
+
+/* 
+	!!!TODO
 *	endpoint : /getallcategory
 *	method : GET
 */

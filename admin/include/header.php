@@ -166,6 +166,7 @@
         <div id="collapseTools" class="collapse <?php echo $active_section_name ==='Tools' ?'show':'' ?>" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Application Tools :</h6>
+            <a class="collapse-item <?php echo $active_page_name ==='custom_product_list' ?'active':'' ?>" href="custom_product_list.php">Custom Product List</a>
             <a class="collapse-item <?php echo $active_page_name ==='add_categories' ?'active':'' ?>" href="add_categories.php">Add Categories</a>
             <a class="collapse-item <?php echo $active_page_name ==='promotional_suppliers' ?'active':'' ?>" href="promotional_suppliers.php">Promotional Suppliers</a>
             <h6 class="collapse-header">App Header Images :</h6>
